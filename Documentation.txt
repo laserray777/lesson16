@@ -1,0 +1,117 @@
+11-23-2018 01:52:00 PM -06:00:
+[
+/********************http://lasercrosslasercropspc1.azurewebsites.net documentation********************************************/
+/***************************************************************the_music_banner_ad_1 documentaion************************************************************************/
+I created this animate cc 2019 document - the_music_banner_ad_1 as an OAM package beacuse, in reading C:\lasercropsAW_OnD\Adobe\Peachpit.com\Dreamweaver_CC_2018\Bonus_chapters\Dreamweaver cib 2018 16bonus.pdf
+under the section - 'Adding web animation to a page' - the author states that he - "created an animated banner as an OAM file..." - since in the
+Publish Settings dialog box, in this document, I selected these options:
+Category Basic: [] HTML5 Canvas.
+OTHER FORMATS: [] JPEG Image, [x] OAM Package, [] SVG Image.
+ I am preparing for the worse.
+]
+11-27-2018 09:47:00 AM -06:00:
+[
+/******************************Preparing for the initial commit for this project***************************************************/
+ I am going to make an initial commit before I begin developing this project as per the book. I staged everything in the 
+ Local Site Folder - lesson16 - except what I excluded and the movies directory. See the .gitignore contents to see what I excluded.
+ Most of the files I staged had this warning message:
+ Warning: LF will be replaced by CRLF in the staged file The file will have its original line-endings in the working directory.
+ Now I am going to make my initial commit, preferably in Dreamweaver CC 2019. I open Window > Git to open the Git panel and in the
+ top left corner it displays a 'Commit Staged Files' link. I am going to click that button. But first here is the Bash Here view
+ of the current project status:
+ AzureAD+RaymondLeeGregowicz@DESKTOP-FIRSTWP MINGW64 /c/lasercropsAW_OnD/Adobe/Peachpit.com/Dreamweaver_CC_2018/Lessons/lesson16 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   Documentation.txt
+        new file:   TMPYF27JR.htm
+        new file:   Templates/mybootstrap_temp.dwt
+        new file:   about-us.html
+        new file:   contact-us.html
+        new file:   css/bootstrap.css
+        new file:   events.html
+        new file:   finished/animation_assets/ecotour/Assets/PosterImg_400.png
+        new file:   finished/animation_assets/ecotour/Assets/ecotour.html
+        new file:   finished/animation_assets/ecotour/Assets/ecotour.js
+        new file:   finished/animation_assets/ecotour/Assets/ecotour_oam.xml
+        new file:   finished/animation_assets/ecotour/Assets/images/ecotour_atlas_.png
+        new file:   finished/animation_assets/ecotour/config.xml
+        new file:   finished/greenstyles-finished.css
+        new file:   finished/travel-finished.html
+        new file:   fonts/glyphicons-halflings-regular.eot
+        new file:   fonts/glyphicons-halflings-regular.svg
+        new file:   fonts/glyphicons-halflings-regular.ttf
+        new file:   fonts/glyphicons-halflings-regular.woff
+        new file:   fonts/glyphicons-halflings-regular.woff2
+        new file:   green-styles.css
+        new file:   images/animated-overlay.gif
+        new file:   images/bike.jpg
+        new file:   images/biking.jpg
+        new file:   images/champs.jpg
+        new file:   images/city.jpg
+        new file:   images/cruise.jpg
+        new file:   images/ecotour.png
+        new file:   images/elaine.jpg
+        new file:   images/eric.png
+        new file:   images/farmersmarket.png
+        new file:   images/fern.png
+        new file:   images/lin.jpg
+        new file:   images/matthew.png
+        new file:   images/parks.png
+        new file:   images/recycling.jpg
+        new file:   images/santa01.JPG
+        new file:   images/sarah.jpg
+        new file:   images/shopping.jpg
+        new file:   images/skyline.png
+        new file:   images/sprinkler.jpg
+        new file:   images/stripe.png
+        new file:   images/tower.jpg
+        new file:   images/train.jpg
+        new file:   images/ui-bg_diagonals-thick_18_b81900_40x40.png
+        new file:   images/ui-bg_diagonals-thick_20_666666_40x40.png
+        new file:   images/ui-bg_flat_10_000000_40x100.png
+        new file:   images/ui-bg_glass_100_f6f6f6_1x400.png
+        new file:   images/ui-bg_glass_100_fdf5ce_1x400.png
+        new file:   images/ui-bg_gloss-wave_35_f6a828_500x100.png
+        new file:   images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+        new file:   images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+        new file:   images/ui-icons_228ef1_256x240.png
+        new file:   images/ui-icons_ef8c08_256x240.png
+        new file:   images/ui-icons_ffd27a_256x240.png
+        new file:   images/ui-icons_ffffff_256x240.png
+        new file:   images/underground.jpg
+        new file:   index.html
+        new file:   jQueryAssets/jquery-1.11.1.min.js
+        new file:   jQueryAssets/jquery.ui-1.10.4.accordion.min.js
+        new file:   jQueryAssets/jquery.ui.accordion.min.css
+        new file:   jQueryAssets/jquery.ui.core.min.css
+        new file:   jQueryAssets/jquery.ui.theme.min.css
+        new file:   js/bootstrap.js
+        new file:   js/jquery-1.11.3.min.js
+        new file:   news.html
+        new file:   resources/ecotour.oam
+        new file:   resources/original/ecotour.fla
+        new file:   resources/original/ecotour.zip
+        new file:   resources/original/ecotour/ecotour.html
+        new file:   resources/original/ecotour/ecotour.js
+        new file:   resources/original/ecotour/images/ecotour_atlas_.png
+        new file:   tips.html
+        new file:   travel.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        movies/
+		
+A strange thing happened when I saved this new version of Documentation.txt, containing this edit. The Documentation.txt
+file now appears as an untracked file, instead of - Changes not staged for commit. I don't understand this. I guess because it was staged
+as new file:, it becomes untracked upon modification. I am going to now stage Documentation.txt again and press 'Commit staged files'.
+
+
+]

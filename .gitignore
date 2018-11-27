@@ -1,0 +1,11 @@
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files
+# Example.gitignore files : https://github.com/github/gitignore
+# ignore objects and archives, anywhere in the tree. 
+*.[oa]
+# Visual Studio 2015 cache/options directory
+.vs/
+_notes/
+/bower_components/
+/node_modules/
+waws-prod-ch1-002_Web_URL_CreationLog
